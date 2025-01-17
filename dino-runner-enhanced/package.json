@@ -1,0 +1,31 @@
+{
+  "name": "dino-runner-enhanced",
+  "version": "1.0.0",
+  "description": "An enhanced version of the classic Dino Runner game with additional features and improved gameplay.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dino-runner-enhanced.git"
+  },
+  "keywords": [
+    "dino",
+    "runner",
+    "game",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/express": "^4.17.11"
+  }
+}
